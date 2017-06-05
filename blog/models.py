@@ -16,7 +16,7 @@ class BlogGroup(models.Model):
         return self.title
 
     # python 3.x
-    def __unicode__(self):
+    def __str__(self):
         return self.title
 
 class Blog(models.Model):
